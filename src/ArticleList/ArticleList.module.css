@@ -1,0 +1,9 @@
+.articleList{
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    background-color:rgb(130, 140, 140);
+    border: 1px dashed rgb(85, 85, 85);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, 0.5);
+    padding: 10px; 
+}
