@@ -6,7 +6,7 @@ const ArticleListItem = (item) => {
     const [buttonText, setButtonText] = useState('Show more');
     const articleText = buttonText === 'Show less' ?
         <div>
-            <p>{item.shortText}</p>
+            <p className={styles.articleText}>{item.shortText}</p>
             <time className={styles.articleTime} dateTime={item.timeStamp}>{item.displayDate}</time>
         </div> : null;
 

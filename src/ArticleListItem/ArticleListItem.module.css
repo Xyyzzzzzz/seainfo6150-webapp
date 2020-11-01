@@ -1,5 +1,4 @@
 .articleItem{
-    position: relative;
     background-color: white;
     border: 1px solid brown;
     border-radius: 10px;
@@ -7,13 +6,23 @@
     padding: 10px;
     box-shadow: 0px 0px 10px 10px rgb(110, 110, 110) ,
                 200px 0px 100px -100px rgba(200, 0, 0, 0.5) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
 }
 
 .articleTitle{
     color: rgb(200, 0, 0);
-    margin-top: 5px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.articleText{
+    font-size: x-small;
 }
 
 .articleTime{
     font-weight: bold;
+    font-size: small;
 }
