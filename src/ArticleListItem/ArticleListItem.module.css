@@ -14,15 +14,10 @@
 
 .articleTitle{
     color: rgb(200, 0, 0);
-    font-size: x-large;
     text-decoration: underline;
 }
 
-.articleText{
-    font-size: x-small;
-}
 
 .articleTime{
     font-weight: bold;
-    font-size: small;
 }

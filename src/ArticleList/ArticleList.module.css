@@ -10,3 +10,32 @@
     grid-template-columns: repeat(3, 32%);
     justify-content: space-around;
 }
+
+@media (min-width: 400px) {
+  .articleList {
+      font-size: small;
+      grid-template-columns: repeat(1, 90%);
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .articleList {
+      font-size: medium;
+      grid-template-columns: repeat(2, 48%);
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .articleList {
+      font-size: large;
+      grid-template-columns: repeat(3, 32%);
+    }
+  }
+  
+  @media (min-width: 1500px) {
+    .articleList{
+      font-size: x-large;
+      grid-template-columns: repeat(4, 23%);
+      
+    }
+  }
