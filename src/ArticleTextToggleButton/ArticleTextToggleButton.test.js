@@ -3,7 +3,7 @@ import ArticleTextToggleButton from "./ArticleTextToggleButton";
 
 describe("ArticleTextToggleButton tests", () => {
   it("renders correctly", () => {
-    const { container } = render(<ArticleTextToggleButton buttonText="Hello" onClick={() => {}} />);
+    const { container } = render(<ArticleTextToggleButton buttonText="Hello" onClick={() => { }} />);
     expect(container).toMatchSnapshot();
   });
 });
